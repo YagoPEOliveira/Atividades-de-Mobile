@@ -26,7 +26,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             TelaPerfil()
-            TelaPerfilMaterial()
         }
     }
 }
@@ -68,9 +67,4 @@ fun TelaPerfil(){
         }
 
     }
-}
-
-@Composable
-fun TelaPerfilMaterial(){
-
 }
